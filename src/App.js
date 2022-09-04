@@ -1,6 +1,7 @@
 
 import './App.css';
 import { NavBar } from './components/navbar';
+import ItemListContainer from './containers/ItemListContainer';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         Mi app nueva !!!
         
         </p>
- 
+        <ItemListContainer greeting={"Bienvenidos a Nuestra App !!! "} />
+
       </header>
     </div>
   );
