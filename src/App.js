@@ -2,6 +2,7 @@
 import './App.css';
 import { NavBar } from './components/navbar';
 import ItemListContainer from './containers/ItemListContainer';
+import {AiOutlineShoppingCart} from 'react-icons/ai';
 
 function App() {
   return (
@@ -10,11 +11,10 @@ function App() {
       <header className="App-header">
 
         <p>
-        Mi app nueva !!!
-        
         </p>
+        < AiOutlineShoppingCart />
         <ItemListContainer greeting={"Bienvenidos a Nuestra App !!! "} />
-
+    
       </header>
     </div>
   );
