@@ -11,10 +11,8 @@ function App() {
     <div className="App">
         <NavBar/>
       <header className="App-header">
-
         < AiOutlineShoppingCart/>
         <ItemListContainer greeting={"Bienvenidos a Nuestra App !!! "} />
-        <h1> Mi Contador </h1>
         <CounterContainer/>
       </header>
     </div>

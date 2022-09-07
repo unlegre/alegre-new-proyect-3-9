@@ -1,0 +1,19 @@
+.Counter-Container{
+    width: 200px;
+    height: 130px;
+    background-color:rgb(177, 99, 99);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.Counter-Container h1 {
+    font-size: 15px;
+    padding: 20px;
+}
+.Counter-icon{
+    font-size: 45px;
+    margin: 20px;
+    color: blueviolet;
+}
+

@@ -8,7 +8,7 @@ const CartWidget = () => {
         width: '90px'
 
     }}>
-      < HiShoppingCart clasName="carrito"/>
+      < HiShoppingCart/>
     </div>
 
   )

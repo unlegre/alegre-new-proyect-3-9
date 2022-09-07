@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
-
-.carrito{
-  color: red;  
-  text-align: right;
-  background-color: black;
-  border-radius: 15px ;
+body{
+background-color: 7FB77E;
+color: B1D7B4;
+display: flex; /* hace q una seccion este por defecto una al lado de otra*/
+width: 100%;
+height:100vh;
+flex-direction: column;/*lo pone uno debajo de otro*/
+justify-content: center;/*lo centra tanto de manera horizontal como vertical*/
 
 }
