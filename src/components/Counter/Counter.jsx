@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './Counter.css'
-// import {IoRemoveCircleOutline} from 'react-icons/Io';
-// import {GrAddCircle} from  'react-icons/Gr';
+//import {HiShoppingCart} from 'react-icons/hi';
+import {IoMdRemoveCircleOutline} from 'react-icons/io';
+import {GrAddCircle} from  'react-icons/gr';
 // importo button
 //import ResetButton from "./ResetButton/ResetButton.jsx";
 
@@ -26,9 +27,11 @@ const Counter = () => {
   return (
   <div> 
     <div className='Counter'>
-      < button onClick={decrement} > - </button>
+      <button onClick={increment} > < GrAddCircle/> </button>
       <p className='Counter-number'>{count}</p>
-      <button onClick={increment} > + </button>
+      < button onClick={decrement} >  <IoMdRemoveCircleOutline/> </button>
+     
+      
     </div> 
  
   </div>  
