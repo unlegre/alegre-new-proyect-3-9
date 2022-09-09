@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Counter.css'
-//import {HiShoppingCart} from 'react-icons/hi';
 import {IoMdRemoveCircleOutline} from 'react-icons/io';
 import {GrAddCircle} from  'react-icons/gr';
 // importo button
@@ -25,15 +24,12 @@ const Counter = () => {
   }*/
 
   return (
-  <div> 
+  <div className='Counter-counteiner'> 
     <div className='Counter'>
-      <button onClick={increment} > < GrAddCircle/> </button>
+      <button className='Couter-icon' onClick={increment} > < GrAddCircle /> </button>
       <p className='Counter-number'>{count}</p>
-      < button onClick={decrement} >  <IoMdRemoveCircleOutline/> </button>
-     
-      
+      < button className='Couter-icon' onClick={decrement} > <IoMdRemoveCircleOutline /> </button>
     </div> 
- 
   </div>  
   );
 }

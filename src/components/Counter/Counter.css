@@ -1,0 +1,19 @@
+
+.Counter{
+    display: flex;   
+    justify-content:center;
+    align-items: center;
+  
+
+}
+.Couter-icon{
+   font-size:50px;
+   margin: 30px;
+   color: rgb(30, 190, 102);
+   cursor:pointer;
+ 
+} 
+.Counter-number{
+    font-size: 38px;
+    color: brown;
+}
