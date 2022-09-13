@@ -5,6 +5,7 @@ import ItemListContainer from './containers/ItemListContainer';
 import {AiOutlineShoppingCart} from 'react-icons/ai';
 // importo container
 import CounterContainer from "./Container/CounterContainer";
+//import {products} from "./data/products"  modificacion
 
 
 function App() {

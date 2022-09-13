@@ -4,7 +4,6 @@ import ItemList from '../../components/ItemList';
 //import { useState } from 'react';
 import { products } from '../../data/products';
 import './styles.css';
-
 const ItemListContainer = ({greeting}) => {
 
 const [productos, setProductos] = useState([])//declaro estado

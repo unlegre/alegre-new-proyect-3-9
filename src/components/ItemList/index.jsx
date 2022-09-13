@@ -1,6 +1,8 @@
 import React from 'react'
 import Item from '../Item'
 
+//import {products} from "./data/products"// modificion
+
 const ItemList = ({products}) => {
   return (
     <div>
