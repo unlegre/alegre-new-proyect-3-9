@@ -1,18 +1,19 @@
 import React from 'react'
 //import { products } from '../../data/products'
 
-const Item = ({products}) => { 
-const {name,price,description,imgs}=products
+const Item = ({product}) => { 
+const {name,price,description,stock,imgs}=product
   return (
  <div>
     <section>
-    <img src={`/imagenes/${imgs.imgProduct}`} alt="" />   // Maty esta es la ruta para ver las imagenes no me sale
+    <img src={`/imagenes/${imgs.imgProduct}`} alt="" />   
 
     </section>
     <div>
-        <h2>{name}</h2>   // y estos son los iten que quiero mostrar pero no puedo mostrar mas de uno ,con dos o mas me da error
+        <h2>{name}</h2>   
         <h4>{price}</h4>
         <p>{description}</p>
+        <h3>{stock}</h3>
     </div>
  </div>
   )
